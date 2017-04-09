@@ -1,0 +1,18 @@
+#!/bin/bash
+#this is a comment
+
+say This application cannot replace 911
+#say What is your emergency
+
+cd /Users/Victoria/Desktop
+
+#open input.txt
+#osascript 'tell "Systems Event" -e {63,63}'
+#sleep 5
+#osascript 'tell "Systems Event" -e {63}'
+#possibly save input.txt
+
+
+./Help
+say < output.txt
+exit;
